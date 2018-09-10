@@ -1,0 +1,72 @@
+
+ --- XGDork ---
+
+ version : b0.9.0
+ beta-open
+
+ --- ------ ---
+
+ 'agents.txt' file made by SQLmap Dev/team
+ SQLmap - https://github.com/sqlmapproject/
+
+
+
+ --- UPDATES ---
+
+[b0.9.0]
+  - Add of various information
+  - Aestheticism of the program
+  - Some corrections, minor modifications
+  - Add 'forcing' option, additional tests, simple WAF detection ...
+  - Add 'timeout' option, allows to define a timeout for Requests when reading the received data
+  - If your list is not empty before detecting 'Unusual Traffic', then the program will go on to the next step
+
+
+[b0.7.2] - (MetaTuring)
+  - SearchEngine greatly enhanced
+  - New Google Secure 'Unusual Traffic' Bypass, efficient and stable
+  - Parsers improve
+  - some corrections
+  - removal of 'Spoof-dorks', obselete and become useless
+
+[b0.6.0]
+  - Parsers improve
+  - Fix range() option in bypass mode
+  - Add the 'Dumper' module, 'naif', MySQL >= 5 Generic.
+
+[b0.5.0 (dev)]
+   - Dumper rewrite
+   - Dumper enhancement> Syntax change during the attack if needed.
+
+[b0.3.0 (dev)]
+  - Adding a Module 'Dumper'> tries to inject automatically, via 'a simple SQL attack' if the result is positive then allows 'dump' the database (MySQL> = 5) of the site in question. .
+  - Simple attack "Error-Based 'Unknown WHERE CLAUSE'"
+
+[a1.0.7]
+  - Improved Bypass> added a 'rand_domain', integrate.
+  - SearchEngine enhancement> 'customdomain' option allows you to manually define a Google domain, by default: '. Com'
+  - SearchEngine enhancement> option 'range ()' sets the start and end of search
+  - Various Improvement / Modification ...
+  - Optimization general ...
+
+[a.1.0.3]
+  - Supports Arguments rewritten (flexible, easy to add new module or options ...)
+  - Add Bypass mode (simple)
+  - Code optimized
+
+[a.0.8.0 (dev)]
+  - Add Bypass mode (primitive)
+  - Improved SQL Parser
+  - Quote change from "'" to "%% 2727"
+  - Improved SearchEngine and Parser
+  - Improved URLs filter
+
+[a0.7.5]
+  - First version shared
+  - Rewriting code
+  - Improvement all
+
+[Prototype (dev)]
+  - basic functions, primitive ...
+
+
